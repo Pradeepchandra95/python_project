@@ -129,3 +129,14 @@ print('join------', word.join(['a', 'b', 'c'])) # join the elements of the list 
 print('split------', word.split('t')) # split the string into a list
 print('splitlines------', word.splitlines()) # split the string into a list of lines
 # --------------------------------------------------------
+word = "Python"
+print(word[0])
+print(word[-1])
+print(word[2:])
+print(word[:3])
+print(word[1:4])
+print(word[-3:])
+print(word[-3:-1])
+print(word[1:5:2])
+print(word[::-1])
+# --------------------------------------------------------
