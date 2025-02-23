@@ -1,0 +1,4 @@
+>>> n
+NameError: name 'n' is not defined
+
+SyntaxError: unterminated string literal (detected at line 47)
