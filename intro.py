@@ -99,34 +99,33 @@ print('My name is {} and I am {} years old.'.format(name, age)) # using format()
 print(f'My name is {name} and I am {age} years old.') # using f-string
 print('My name is %s and I am %d years old.' % (name, age)) # using % operator
 print('My name is {0} and I am {1} years old.'.format(name, age)) # using format() method
-print(f'My name is {name} and I am {age} years old.') # using f-string
 print('My name is', name, 'and I am', age, 'years old.') # using comma
 print('My name is ' + name + ' and I am ' + str(age) + ' years old.') # using + operator
 # --------------------------------------------------------
 # use the string methods
 word = 'Python'
-print(word.upper()) # convert the string to uppercase
-print(word.lower()) # convert the string to lowercase
-print(word.capitalize()) # convert the first character to uppercase
-print(word.title()) # convert the first character of each word to uppercase
-print(word.swapcase()) # convert uppercase to lowercase and vice versa
-print(word.startswith('P')) # check if the string starts with 'P'
-print(word.endswith('n')) # check if the string ends with 'n'
-print(word.find('t')) # find the first occurrence of 't'
-print(word.rfind('t')) # find the last occurrence of 't'
-print(word.count('t')) # count the number of occurrences of 't'
-print(word.replace('t', 'T')) # replace 't' with 'T'
-print(word.strip()) # remove leading and trailing whitespaces
-print(word.lstrip()) # remove leading whitespaces
-print(word.rstrip()) # remove trailing whitespaces
-print(word.isalnum()) # check if all characters are alphanumeric
-print(word.isalpha()) # check if all characters are alphabetic
-print(word.isdigit()) # check if all characters are digits
-print(word.islower()) # check if all characters are lowercase
-print(word.isupper()) # check if all characters are uppercase
-print(word.istitle()) # check if the first character of each word is uppercase
-print(word.isspace()) # check if all characters are whitespace
-print(word.join(['a', 'b', 'c'])) # join the elements of the list with the string
-print(word.split('t')) # split the string into a list
-print(word.splitlines()) # split the string into a list of lines
+print('upper------', word.upper()) # convert the string to uppercase
+print('lower------', word.lower()) # convert the string to lowercase
+print('capitalize------', word.capitalize()) # convert the first character to uppercase
+print('title------', word.title()) # convert the first character of each word to uppercase
+print('swapcase------', word.swapcase()) # convert uppercase to lowercase and vice versa
+print('startswith------', word.startswith('P')) # check if the string starts with 'P'
+print('endswith------', word.endswith('n')) # check if the string ends with 'n'
+print('find------', word.find('t')) # find the first occurrence of 't'
+print('rfind------', word.rfind('t')) # find the last occurrence of 't'
+print('count------', word.count('t')) # count the number of occurrences of 't'
+print('replace------', word.replace('t', 'T')) # replace 't' with 'T'
+print('strip------', word.strip()) # remove leading and trailing whitespaces
+print('lstrip------', word.lstrip()) # remove leading whitespaces
+print('rstrip------', word.rstrip()) # remove trailing whitespaces
+print('isalnum------', word.isalnum()) # check if all characters are alphanumeric
+print('isalpha------', word.isalpha()) # check if all characters are alphabetic
+print('isdigit------', word.isdigit()) # check if all characters are digits
+print('islower------', word.islower()) # check if all characters are lowercase
+print('isupper------', word.isupper()) # check if all characters are uppercase
+print('istitle------', word.istitle()) # check if the first character of each word is uppercase
+print('isspace------', word.isspace()) # check if all characters are whitespace
+print('join------', word.join(['a', 'b', 'c'])) # join the elements of the list with the string
+print('split------', word.split('t')) # split the string into a list
+print('splitlines------', word.splitlines()) # split the string into a list of lines
 # --------------------------------------------------------
